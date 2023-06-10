@@ -23,10 +23,10 @@ function draw() {
   textSize(40);
   fill(255, 66, 66);
   frameRate(2);
-  text('Tenía casa', random(532), 2025);
+  text('Tenía casa', random(932), 2950);
   fill(193, 242, 255);
   frameRate(10);
   fill(255, 15, 0);
-  text('Me había casado', random(132), 2063);
+  text('Me había casado', random(132), 3999);
   frameRate(7);
 }
