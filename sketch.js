@@ -19,7 +19,7 @@ function draw() {
   text('Yo ha tu edad ya', 120, 233);
   fill(168, 13, 0);
   textSize(45);
-  text('Tenía trabajo', random(132), 933);
+  text('Tenía trabajo', random(132), 633);
   textSize(40);
   fill(255, 66, 66);
   frameRate(2);
@@ -27,6 +27,6 @@ function draw() {
   fill(193, 242, 255);
   frameRate(10);
   fill(255, 15, 0);
-  text('Me había casado', random(132), 1900);
+  text('Me había casado', random(132), 1100);
   frameRate(7);
 }
