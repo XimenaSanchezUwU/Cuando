@@ -1,9 +1,21 @@
+
 let img;
 let myFont;
 function preload() {
-  img = loadImage('assets/A_tu_edad.png');
-  myFont = loadFont('assets/JMH Typewriter.otf');
+  img = loadImage('assets/Caminos.png');
+  myFont = loadFont('assets/CherryHand-Regular.ttf');
 }
+
+//Hacer la imagen menor a 1000 pixeles
+//Cargar la fuente loadFont()-->
+
+/*
+let myFont;
+function preload() {
+  myFont = loadFont('assets/Handmade.otf');
+}
+*/
+
 
 function setup() {
   var cnv = createCanvas(windowWidth, windowHeight);
@@ -12,21 +24,18 @@ function setup() {
 }
 
 function draw() {
-  background(0, 42, 54);
+  background(220);
   image(img, 0, 0, windowWidth, windowHeight);
-  textSize(65);
-  fill(21, 2, 0);
-  text('Yo ha tu edad ya', 120, 133);
-  fill(168, 13, 0);
-  textSize(45);
-  text('Tenía trabajo', random(32), 533);
-  textSize(40);
-  fill(255, 66, 66);
-  frameRate(2);
-  text('Tenía casa', random(532), 825);
-  fill(193, 242, 255);
+  text('¿Hacia dónde voy con todo esto?', 33, 411);
+  //textFont('myFont');
+  fill(random(122), 132, 123);
+  text('¿Hacia dónde voy con todo esto?', random(100), 111);
+  //textFont('myFont');
+  textSize(random(100));
+  fill(11, 32, 123);
   frameRate(10);
-  fill(255, 15, 0);
-  text('Me había casado', random(132), 1063);
-  frameRate(7);
+  text('¿Hacia dónde voy con todo esto?', 20, random(631));
+  //textFont('myFont');
+  textSize(65);
+  fill(222,1,12);
 }
